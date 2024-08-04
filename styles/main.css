@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
-
 * {
     font-family: 'Readex Pro';
 }
 
+body {
+    color: #000;
+    /* Default text color */
+}
 
 a {
     text-decoration: none;
-    color: white !important;
+    color: #007bff !important;
+    /* Default link color */
     font-weight: 500;
 }
 
@@ -36,4 +40,26 @@ footer {
 
 header {
     visibility: hidden;
+}
+
+/* Specific styles for the Projects & Accomplishments section */
+.stMarkdown ul li {
+    color: #000 !important;
+    /* Ensure list text is black */
+}
+
+.stMarkdown ul li a {
+    color: #007bff !important;
+    /* Link color */
+}
+
+/* Specific styles for the Contact section */
+.stMarkdown p {
+    color: #000 !important;
+    /* Ensure paragraph text is black */
+}
+
+.stMarkdown p a {
+    color: #007bff !important;
+    /* Email link color */
 }
