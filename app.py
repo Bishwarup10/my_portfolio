@@ -1,3 +1,4 @@
+
 from pathlib import Path
 import streamlit as st
 from PIL import Image
@@ -30,6 +31,7 @@ PROJECTS = {
     "Credit Card Consumption [Python]": "https://github.com/Bishwarup10/Credit-Card-Consumption",
     "Sales Data Analysis And Visualizations w/ Python": "https://github.com/Bishwarup10/Sales-Data-Visualizations",
     "Customer Analysis for Retail [Python]": "https://github.com/Bishwarup10/Retail-Case-Study",
+    "Web Scraping [Python]": "https://github.com/Bishwarup10/Web-Scraping",
 }
 
 
@@ -71,6 +73,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # --- PROFESSIONAL SUMMARY ---
 st.write('\n')
 st.subheader("Professional Summary")
+st.write("---")
 st.write(
     """
 - ✔️ Experience in extracting actionable insights from data
@@ -84,6 +87,7 @@ st.write(
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Hard Skills")
+st.write("---")
 st.write(
     """
 - 👩‍💻 Programming: Python (Scikit-learn,Pandas, Numpy, Matplotlib, Seaborn), SQL 
@@ -193,6 +197,7 @@ st.write(
 # --- CONTACT ---
 st.write('\n')
 st.subheader("Contact")
+st.write("---")
 st.write("Feel free to reach out via email or phone.")
 st.write("📫 Email: [bishwarupdey11@gmail.com](mailto:bishwarupdey11@gmail.com)")
 st.write("📞 Phone: +91-8375822148")
