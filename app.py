@@ -46,6 +46,12 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 
+# --- QUOTE SECTION ---
+st.write('\n')
+st.markdown("<h4 class='quote'>“The goal is to turn data into information, and information into insights.”</h4>", unsafe_allow_html=True)
+st.markdown("<p class='quote-author'>— Carly Fiorina</p>", unsafe_allow_html=True)
+
+
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:
@@ -60,7 +66,7 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", EMAIL)
+    
 
 
 # --- SOCIAL LINKS ---
@@ -201,3 +207,4 @@ st.write("---")
 st.write("Feel free to reach out via email or phone.")
 st.write("📫 Email: [bishwarupdey11@gmail.com](mailto:bishwarupdey11@gmail.com)")
 st.write("📞 Phone: +91-8375822148")
+
